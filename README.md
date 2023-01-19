@@ -30,7 +30,7 @@ The recommended way to install Semantic External Query Lookup is by using [Compo
 ```
 1. From your MediaWiki installation directory, execute
    `composer require mediawiki/semantic-external-query-lookup:~1.0`
-2. Add `wfLoadExtension('SemenaticExternalQueryLookup');` to the bottom of `LocalSettings.php`
+2. Add `wfLoadExtension('SemanticExternalQueryLookup');` to the bottom of `LocalSettings.php`
 3. Navigate to _Special:Version_ on your wiki and verify that the package
    have been successfully installed.
 
